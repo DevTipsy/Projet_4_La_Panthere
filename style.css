@@ -22,7 +22,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -332,7 +332,10 @@ a:hover {
     margin: 10px 10px 0 0;
     border: 0px;
 }
-
+.navbar-toggle2 {
+    margin: 10px 10px 0 0;
+    border: 0px;
+}
 .navbar-toggle:hover {
     background: transparent!important;
 }
@@ -688,11 +691,6 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
-}
-
-.social {
-    max-width: 400px;
-    margin: auto auto auto auto;
 }
 
 h2 {
@@ -1051,7 +1049,9 @@ h4 {
 .img-responsive{
     margin: auto;
 }
-.flex{
+.flex_social_media{
     display: flex;
     justify-content: center;
+    max-width: 400px;
+    margin: auto auto auto auto;
 }
