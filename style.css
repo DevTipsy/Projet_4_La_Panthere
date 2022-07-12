@@ -502,6 +502,7 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    display: block;
 }
 
 .scrollToTop {
@@ -654,6 +655,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    max-width: 630px;
 }
 
 .hero-bloc-text-sub {
@@ -675,8 +677,13 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
-    margin: auto auto auto auto;
+    max-width: 575px;
+    margin: auto;
+}
+.text-center.hero-bloc-text.black {
+    margin: 0% 25% 0% 10%;
+    width: 65%;
+    display: -webkit-box;
 }
 
 .h1 {
@@ -852,6 +859,8 @@ h4 {
 @media (max-width: 991px) {
     .container {
         width: 100%;
+        margin-left: 15%;
+        margin-right: 15%;
     }
     .b-parallax {
         background-attachment: scroll;
